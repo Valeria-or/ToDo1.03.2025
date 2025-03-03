@@ -10,11 +10,12 @@
     width: inherit;
     display: flex;
     justify-content: space-around;
-    list-style: none;
 }
 
 .textListNavbar{
     font-size: 20px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .textListNavbar:hover{

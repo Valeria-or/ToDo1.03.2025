@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom"
 import "./Navbar.css"
 
 export default function Navbar() {
     return(
         <>
         <header className="conteinerNavbar">
-            <ul className="listNavbar">
-                <li className="textListNavbar">logo</li>
-                <li className="textListNavbar">Войти и не церемониться</li>
-                <li className="textListNavbar">Регайся дурак</li>
-            </ul>
+            <div className="listNavbar">
+                <Link to="/" className="textListNavbar">logo</Link>
+                <Link to="/in" className="textListNavbar">Войти и не церемониться</Link>
+                <Link to="/reg" className="textListNavbar">Регайся дурак</Link>
+            </div>
         </header>
         </>
     )
