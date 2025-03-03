@@ -7,8 +7,8 @@ export default function Navbar() {
         <header className="conteinerNavbar">
             <div className="listNavbar">
                 <Link to="/" className="textListNavbar">logo</Link>
-                <Link to="/in" className="textListNavbar">Войти и не церемониться</Link>
-                <Link to="/reg" className="textListNavbar">Регайся дурак</Link>
+                <Link to="/login" className="textListNavbar">Войти и не церемониться</Link>
+                <Link to="/register" className="textListNavbar">Регайся дурак</Link>
             </div>
         </header>
         </>
