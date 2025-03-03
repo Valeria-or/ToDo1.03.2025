@@ -1,0 +1,23 @@
+.conteinerNavbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+}
+
+.listNavbar{
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.textListNavbar{
+    font-size: 20px;
+}
+
+.textListNavbar:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
